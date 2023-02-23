@@ -97,7 +97,7 @@ onMounted(()=>{
   <header class="header-bottom">
     <div class="container flex items-center mx-auto">
     <NuxtLink to="/" class="logo-link w-[150px] h-[30px] flex">
-      <img src="logo.svg" />
+      <img src="/logo.svg" />
     </NuxtLink>
     <ul class="flex items-center ml-auto mr-8">
       <li class="bottom-list-item pr-4 pl-4" v-for="{ id, href, name,sub } in linksBottom" :key="id">
