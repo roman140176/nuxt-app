@@ -55,7 +55,7 @@
       </div>
       <div class="footer-bottom-right">
         <NuxtLink to="/" class="logo-link w-[150px] h-[30px] flex mb-4">
-          <img src="../assets/svg/logo.svg" />
+          <img src="logo.svg" />
         </NuxtLink>
         <div class="grid grid-cols-3 gap-x-4 font-bold">
           <span>Ru</span>
