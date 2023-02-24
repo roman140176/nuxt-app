@@ -19,11 +19,7 @@ const props = defineProps({
   isModal:{
     Type:Boolean,
     default:false
-  },
-  slotName:{
-    Type:String,
-    default:''
-  }
+  }  
 })
 const emit = defineEmits(['openModal','closeModal'])
 const closeModal = () => {

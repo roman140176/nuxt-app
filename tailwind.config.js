@@ -17,6 +17,9 @@ module.exports = {
       },
       fontSize:{
         spec: ['0.875rem', { lineHeight: '1rem' }]
+      },
+      screens:{
+        xxl:'1680px'
       }
     },
   },

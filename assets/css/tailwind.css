@@ -16,7 +16,9 @@ html{
   height: 100%;
 }
 
-
+.container{
+  @apply 2xl:max-w-[1536px]  xxl:p-0 2xl:p-2 sm:max-w-none sm:w-full sm:px-4
+}
 #__nuxt{
   @apply flex flex-col min-h-full mx-auto max-w-[1920px] w-[100%] relative;
 }
